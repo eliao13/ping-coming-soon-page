@@ -1,3 +1,7 @@
 export default function EmailInput() {
-  return <div>EmailInput</div>;
+  return (
+    <div>
+      <input type="text" placeholder="Your email address..." />
+    </div>
+  );
 }
