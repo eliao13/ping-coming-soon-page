@@ -30,8 +30,8 @@ export default function EmailInput() {
   }
 
   return (
-    <div className="input-container flex flex-col gap-4 text-center">
-      <div className="flex flex-col gap-2">
+    <div className="input-container flex flex-col gap-4 text-center lg:flex-row">
+      <div className="flex flex-col gap-2 lg:gap-0 lg:flex-[3]">
         <input
           className={
             `border-2 rounded-3xl px-4 py-2` +
@@ -57,7 +57,10 @@ export default function EmailInput() {
         )}
       </div>
 
-      <button className="text-white rounded-3xl" onClick={handleEmailSubmit}>
+      <button
+        className="text-white rounded-3xl lg:flex-1"
+        onClick={handleEmailSubmit}
+      >
         Notify Me
       </button>
     </div>

@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="flex flex-col justify-center align-middle text-center gap-4 py-12">
+    <header className="flex flex-col justify-center align-middle text-center gap-4 py-12 lg:py-0 lg:pb-8 xl:pt-16">
       <div className="logo flex justify-center mb-8">
         <img src="src/assets/logo.svg" alt="logo" />
       </div>
