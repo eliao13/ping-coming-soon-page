@@ -2,7 +2,7 @@ import IconContainer from "./IconContainer";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="flex flex-col text-center gap-4 text-[#969696] text-xs">
       <IconContainer />
       &copy; Copyright Ping. All rights reserved.
       <p class="attribution">
@@ -10,7 +10,7 @@ export default function Footer() {
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
           Frontend Mentor
         </a>
-        . Coded by <a href="#">Your Name Here</a>.
+        . Coded by <a href="#">Evan Liao</a>.
       </p>
     </footer>
   );

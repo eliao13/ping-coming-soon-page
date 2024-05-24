@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <div className="h-svh">
+      <div className="h-svh p-8 flex flex-col">
         <Header />
         <Main />
         <Footer />

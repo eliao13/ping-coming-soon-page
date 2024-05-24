@@ -7,10 +7,10 @@ import {
 
 export default function IconContainer() {
   return (
-    <div className="flex justify-evenly">
-      <FontAwesomeIcon icon={faFacebook} />
-      <FontAwesomeIcon icon={faTwitter} />
-      <FontAwesomeIcon icon={faInstagram} />
+    <div className="flex gap-4 justify-center">
+      <FontAwesomeIcon icon={faFacebook} size="xl" color="#4f7df3" />
+      <FontAwesomeIcon icon={faTwitter} size="xl" color="#4f7df3" />
+      <FontAwesomeIcon icon={faInstagram} size="xl" color="#4f7df3" />
     </div>
   );
 }
